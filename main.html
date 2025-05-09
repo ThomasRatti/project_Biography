@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LookFurtherThanLimit</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            a{
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: #080710;
+                font-family: 'Montserrat', sans-serif;
+                color: #262626;
+                font-size: 16px;
+            }
+
+            main {
+                max-width: 1000px;
+                background-color: #080710;
+                margin: 0 auto;
+                
+                h1 {
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                    margin: 0;
+                    text-align: center;
+                    padding: 4rem 5% 1rem 5%;
+                }
+                
+                h2 {
+                    font-size: 1.3rem;
+                    font-weight: 300;
+                    margin: 0;
+                    text-align: center;
+                    padding: 0 5% 7rem 5%;
+                }
+                
+                .flex-container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-content: space-between;
+                    flex-wrap: wrap;
+                    padding: 0 5% 5% 5%;
+                    
+
+                    figure {
+                        margin-bottom: 1rem;
+                        position: relative;
+
+                        img {
+                            filter: grayscale(90%);
+                            width: 100%;
+                            height: auto;
+                            opacity: 1;
+                            -webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+                            transition: opacity 0.5s;
+                        }
+                        
+                            
+                        img:hover {
+                            opacity: 0.5;
+                        }
+
+                        figcaption {
+                            margin: 10px;
+                            padding: 10px;
+                            line-height: 1.5;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            text-align: right;
+                            color: #000000;
+                            opacity: 0.7;
+                            background-color: darkgray;
+                            border-radius: 25% 10%;
+
+                            
+                            .fig-title {
+                                font-weight: 700;
+
+                            }
+                            .fig-author {
+                                font-weight: 300;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+                
+                .more-container {
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 0 5%;
+                    margin-bottom: 5%;
+                }
+                .more, .more:link, more:visited {
+                    color: #414141;
+                    font-weight: 700;
+                    padding: 10px;
+                    opacity: 0.5;
+                    -webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+                    transition: opacity 0.5s;
+                }
+                .more:hover{
+                    opacity: 1;
+                }
+            }            
+            /* Media queries*/
+            @media screen and (min-width: 701px) {
+                figure {
+                    width: calc(33% - 0.5rem);
+                }
+            }
+
+            @media screen and (max-width: 700px) {
+                figure {
+                    width: calc(50% - 0.5rem);
+                }
+            }
+
+            @media screen and (max-width: 550px) {
+                figure {
+                    width: 100%;
+                }
+            }   
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>look further than limit</h1>
+            <h2>the showroom of <b>Joey Bada$$</b></h2>
+            <div class="flex-container">
+                <figure>
+                    <a href="life.html">
+                        <img src="https://i.pinimg.com/474x/59/d9/ee/59d9ee94a74254f22739ccfc4863b014.jpg">
+                    </a>
+                    <figcaption>
+                        <div class="fig-title">Life.</div>
+                        <div class="fig-author">All u need to know</div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <a href="discography.html">
+                        <img src="https://i.pinimg.com/236x/bd/1a/0f/bd1a0f04b1e92b933885c1ae365ab1d9.jpg">
+                    </a>
+                    <figcaption>
+                        <div class="fig-title">Discography.</div>
+                        <div class="fig-author">All u need to listen</div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <a href="movie.html">
+                        <img src="https://i.pinimg.com/474x/57/b1/91/57b19136bbfc8677f1612fbe736b1a28.jpg">
+                    </a>
+                    <figcaption>
+                        <div class="fig-title">Movies.</div>
+                        <div class="fig-author">All u need to see</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="more-container">	
+                <a href="main.html" target="_blank" alt="Show more" class="more">Show me more</a>
+            </div>
+        </main>
+    </body>
+</html>
