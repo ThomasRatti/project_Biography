@@ -1,27 +1,32 @@
-# 🎤 Biography – Vita e carriera di un rapper americano
+# 🎤 Biography – Life and Career of an American Rapper
 
-**project_Biography** è un sito web statico che racconta la biografia, i successi e la discografia di un famoso rapper americano. Il progetto nasce come esercizio personale per migliorare le competenze in HTML e CSS, con attenzione alla struttura, all’organizzazione delle informazioni e al design grafico.
+**project_Biography** is a static website documenting the life, achievements, and discography of a famous American rapper. This project was created as a personal exercise to sharpen HTML and CSS skills, with a strong focus on information architecture, content organization, and visual design.
 
-## 📌 Obiettivo
+## 📌 Objective
 
-> Presentare in modo chiaro e accattivante il percorso artistico di un cantante, esplorando contenuti multimediali e testuali attraverso una pagina web statica.
+> To present an artist's professional journey in a clear and engaging way, exploring multimedia and textual content through a well-structured static webpage.
 
-## 🛠️ Tecnologie utilizzate
+## 🛠️ Tech Stack
 
-- HTML
-- CSS
-- (Eventualmente estendibile con JS per effetti dinamici)
+- **HTML5**
+- **CSS3**
+- *(Optional: Future expansion with JavaScript for dynamic UI effects)*
 
-## 🧩 Contenuti del sito
+## 🧩 Site Content
 
-- Home page introduttiva
-- Sezione biografica
-- Discografia
-- Curiosità e immagini
-- Collegamenti ai social o canali ufficiali
+- **Introductory Homepage**: A snapshot of the artist's persona.
+- **Biographical Section**: Key milestones in their life and career.
+- **Discography**: A detailed list of albums and major hits.
+- **Trivia & Media**: Interesting facts and curated image galleries.
+- **Official Links**: Quick access to social media and official streaming channels.
 
-## 👨‍💻 Autore
+## 🔗 Live Demo
 
-Thomas Ratti – Studente di Informatica presso l'Università degli Studi di Milano  
-📫 thomasratti.05@gmail.com  
+The project is available online at:  
+👉 [thomasratti.altervista.org/sitoCapolavoro/](http://thomasratti.altervista.org)
+
+## 👨‍💻 Author
+
+**Thomas Ratti** – Computer Science Student at the University of Milan  
+📫 [thomasratti.05@gmail.com](mailto:thomasratti.05@gmail.com)  
 🔗 [GitHub Profile](https://github.com/ThomasRatti)
